@@ -79,13 +79,13 @@ Pipet 25 ul per well in a PCR plate and run the hybridization program.
 
 **Adapter hybrization PCR-program:**
 
-Step 1: 97.5 °C for 2:30 min
+**Step 1:** 97.5 °C for 2:30 min
 
-Step 2: 97 °C for 30 s
+**Step 2:** 97 °C for 30 s
 
 Then go to Step 2, 1.5 °C decrement per 30s, 50 times 
 
-Step 3: Hold at 15 °C
+**Step 3:** Hold at 15 °C
 
 **Note:** After taking out the adapters from the machine, place them directly on ice and never leave the hybridized adapters at RT to avoid risk of dehybridization.
 
@@ -94,7 +94,7 @@ ddRAD-library scheme:
 
 PICTURE
 
-1. Digestion
+###### 1. Digestion
 
 | Reagent | 1x| Mastermix |
 |---------|---|-----------|
@@ -108,9 +108,9 @@ PICTURE
 
 Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 
-2. Bead-Cleanup with Large Cutoff
+###### 2. Bead-Cleanup with Large Cutoff
 
-  2.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
+	2.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   
   2.2 Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
   
