@@ -50,6 +50,7 @@ Hybridzation buffer (10X):
 | NaCl (5M) | 500 mM | 10 ml |
 | EDTA | 10 mM | 0.3722 g | 
 | Water | -| 80 ml |
+
 The buffer can be autoclaved for longer storage.
 
 
@@ -94,7 +95,7 @@ ddRAD-library scheme:
 
 PICTURE
 
-###### 1. Digestion
+#### 1. Digestion
 
 | Reagent | 1x| Mastermix |
 |---------|---|-----------|
@@ -108,33 +109,33 @@ PICTURE
 
 Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 
-###### 2. Bead-Cleanup with Large Cutoff
+#### 2. Bead-Cleanup with Large Cutoff
 
-	2.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
+  **2.1** Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   
-  2.2 Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
+  **2.2** Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
   
   **Note: Keep the supernatant!** The large fragments that we want to remove are bound to the beads and can be discarded.
   
-  2.3 Add 55.2 ul beads to the supernatant (from here on we bind and wash the remaining short fragments in the supernatant; 1:1.8 ratio , digested DNA : beads).  
+  **2.3** Add 55.2 ul beads to the supernatant (from here on we bind and wash the remaining short fragments in the supernatant; 1:1.8 ratio , digested DNA : beads).  
   
   **Note:** The PEG in the bead buffer is critical to force the DNA to bind to the beads and it is still abundant in the supernatant from the first step, therefore it is sufficient to add only the difference between 1.8 - 0.6 = 1.2X amount of beads according to the transferred supernatant volume.
   
-  2.4 Pellet the beads with the plate magnet for 10 min and remove the supernatant.
+  **2.4** Pellet the beads with the plate magnet for 10 min and remove the supernatant.
   
-  2.5 Add 200 ul 80% Ethanol per well while keeping the plate on the plate magnet.
+  **2.5** Add 200 ul 80% Ethanol per well while keeping the plate on the plate magnet.
   
-  2.6 Remove the Ethanol and discard it. Repeat step 2.5. and 2.6. once.
+  **2.6** Remove the Ethanol and discard it. Repeat step 2.5. and 2.6. once.
   
-  2.7 Let the beads dry for 2 min. Note: Don’t overdry the beads as this can lead to substantial library losses.
+  **2.7** Let the beads dry for 2 min. Note: Don’t overdry the beads as this can lead to substantial library losses.
   
-  2.8 Remove the plate from the magnet and add 23 ul of EB buffer. Mix very well by pipetting and let it incubate for 10 min in RT to elute from the beads.
+  **2.8** Remove the plate from the magnet and add 23 ul of EB buffer. Mix very well by pipetting and let it incubate for 10 min in RT to elute from the beads.
   
-  2.9 Pellet the beads with the plate magnet for 5 min.
+  **2.9** Pellet the beads with the plate magnet for 5 min.
   
-  2.10 Transfer 20 ul supernatant to a new well.
+  **2.10** Transfer 20 ul supernatant to a new well.
   
-3. Adapter ligation
+#### 3. Adapter ligation
 
 | Reagent | 1x| Mastermix |
 |---------|---|-----------|
@@ -146,19 +147,20 @@ Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 | Water | 5.0 ul | |
 |----------|----------|----------|
 | Total | 30 ul | |
-/* adapters must be hybridized, following the instructions of section Adapter preparation. Keep in mind to combine adapters with different shifts per HiSeq 3000 lane.
+
+*Adapters must be hybridized, following the instructions of section Adapter preparation. Keep in mind to combine adapters with different shifts per HiSeq 3000 lane.
 
 **Ligation PCR-program:**
 
-Step 1: 23 °C for 30 min
+**Step 1:** 23 °C for 30 min
 
-Step 2: 65 °C for 10 min
+**Step 2:** 65 °C for 10 min
 
-Step 3: 2 °C decrement per 90s, 21 cycles
+**Step 3:** 2 °C decrement per 90s, 21 cycles
 
-Step 4: Hold at 15 °C
+**Step 4:** Hold at 15 °C
 
-4. Bead-Cleanup with Large Cutoff
+#### 4. Bead-Cleanup with Large Cutoff
 
   4.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   
@@ -182,7 +184,7 @@ Step 4: Hold at 15 °C
   
   4.10 Transfer 20 ul supernatant to a new well.
   
-5. Indexing PCR
+#### 5. Indexing PCR
 
 With the attached 48 index oligos, 576 samples can be multiplexed (6 plates).
 Please use the P5 and P7 index-plates as following with an 8-channel pipet:
@@ -223,16 +225,17 @@ Indexing PCR-program:
 
 Expected amount per library: 5-10 ng/ul.
 
-6. Pooling
+#### 6. Pooling
 
 At this step, all indexed libraries will be pooled. There are two possibilities to proceed:
 
   1. Pooling based on measurements with a plate reader (e.g. with Pico Green).
+  
   2. Equal pooling of a small fraction (2 ul) of each library and proceed from here through the complete protocol. Then the pool can be spiked into a HiSeq lane for ca. 5% and a calculation for the repooling can be done based on the amount of sequenced reads per library. This is the most accurate approach and provides excellent equal coverage for all samples. Caveat: Once you have calculated the real amount per library for pooling based on the spike-in, you will need to restart the protocol from here.
 
   Choose your pooling approach and pool all libraries. A total of 3 - 4 ug per pool is enough to run your samples in several lanes.
   
-7. Column purification
+#### 7. Column purification
 
 Binding buffer: 
 
@@ -246,20 +249,26 @@ Note: Don’t mix the components of the binding buffer ahead!
 All  following centfrifugation steps were conducted for 1 min and with a speed of 13000 rcf.
 
   7.1 Calculate the parts for the binding buffer in the ratio 1:1 to your sample (e.g. 500 ul DNA + 500 ul binding buffer). Then add first the Isopropanol to your sample. Mix it with your DNA and then add the NaOAc.
+  
   7.2 Load everything on an EconoSpin column. Spin it. Remove flowthrough. If your volume is higher than 800 ul, repeat this step until you have everything bound to the column.
+  
   7.3 Continue with two Ethanol washes: Add 800 ul Ethanol and spin it. Remove flowthrough. Repeat it.
+  
   7.4 Another last empty spin to reduce Ethanol residuals.
+  
   7.5 Place the column in a new Eppendorf tube and add 40 ul preheated water (60 °C). Let it incubate for 2 min.
+  
   7.6 Second elution: Pipet the flowthrough again on the column and spin it.
+  
   7.7 Recovery per pool was 35 ul.
   
-8. Blue Pippin size selection with a 1.5% gel and R2 internal standards
+#### 8. Blue Pippin size selection with a 1.5% gel and R2 internal standards
 
 Perform a size selection with Blue Pippin range: 250 - 450 bp.
 
 **Note:** Max-Planck Blue Pippin has a shift, therefore choose 300 - 500 bp on the machine.
 
-9. Bioanalyzer and Qubit measurement
+#### 9. Bioanalyzer and Qubit measurement
 
 Perform a bioanalyzer with a HS chip and a Qubit HS concentration measurement.
 
@@ -268,7 +277,8 @@ Bioanalyzer example: Mean fragment size: 341 bp.
 PICTURE
 
 
-10. PCR for library pool efficiency control
+#### 10. PCR for library pool efficiency control
+
 | Reagent | 1x| Mastermix |
 |---------|---|-----------|
 | Pooled and size selected library | 1 ul | - |
@@ -326,44 +336,28 @@ The minimum volume for submission and qubit measurements is 13 ul:
 Pipet rather a bit more of your library and make several control qubit measurements. You should hit the calculated <desired_end_conc.> for submission.
 
 
-Appendix
-Oligos
+## Appendix
+#### Oligos
 
 Adapter oligos (Purification: HPLC):
-Oligo name
-Sequence
-G-43923
-5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTG 3’
-G-44180
-5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTCG 3’
-G-44181
-5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTTCG 3’
-G-44182
-5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTAGTG 3’
-G-43924
-5’ Pho - AATTCAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’
-G-44183
-5’ Pho - AATTCGAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’
-G-44184
-5’ Pho - AATTCGAAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’
-G-44185
-5’ Pho - AATTCACTAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’
-G-43925
-5’ Pho - TAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’
-G-44186
-5’ Pho - TGAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’
-G-44187
-5’ Pho - TGCAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’
-G-44188
-5’ Pho - TGCAAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’
-G-43926
-5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTATGC*A 3’
-G-44189
-5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTCATGC*A 3’
-G-44190
-5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTGCATGC*A 3’
-G-44191
-5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTTGCATGC*A 3’
+| Oligo name | Sequence |
+|------------|----------|
+| G-43923 | 5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTG 3’ |
+| G-44180 | 5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTCG 3’ |
+| G-44181 | 5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTTCG 3’ |
+| G-44182 | 5’ ACACTCTTTCCCTACACGACGCTCTTCCGATCTAGTG 3’ |
+| G-43924 | 5’ Pho - AATTCAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’ |
+| G-44183 | 5’ Pho - AATTCGAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’ |
+| G-44184 | 5’ Pho - AATTCGAAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’ |
+| G-44185 | 5’ Pho - AATTCACTAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT 3’ |
+| G-43925 | 5’ Pho - TAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’ |
+| G-44186 | 5’ Pho - TGAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’ |
+| G-44187 | 5’ Pho - TGCAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’ |
+| G-44188 | 5’ Pho - TGCAAGATCGGAAGAGCACACGTCTGAACTCCAGTCAC 3’ |
+| G-43926 | 5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTATGC*A 3’ |
+| G-44189 | 5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTCATGC*A 3’ |
+| G-44190 | 5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTGCATGC*A 3’ |
+| G-44191 | 5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTTGCATGC*A 3’ |
 
 * PTO
 Coloured bases are the shift bases.
@@ -483,9 +477,3 @@ P7 - Plate 2:
 PICTURE
 
 The combinations of all indexes are listed in a separate excel sheet which can be used to generate a submission file for demultiplexing.
-
-
-<<<<<<< HEAD
-=======
-![alt text](test.jpeg)
->>>>>>> 7697c19cbe03fbfe1a4bc112f1ecfb97dceaded2
