@@ -499,3 +499,7 @@ PICTURE
 The combinations of all indexes are listed in a separate excel sheet which can be used to generate a submission file for demultiplexing.
 
 
+<<<<<<< HEAD
+=======
+![alt text](test.jpeg)
+>>>>>>> 7697c19cbe03fbfe1a4bc112f1ecfb97dceaded2
