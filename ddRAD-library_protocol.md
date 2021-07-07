@@ -21,4 +21,4 @@ Annealing buffer stock (10X):
 
 #### Custom Oligos needed to make adapters:
 
-![alt text] (/test.jpeg)
+![alt text] (/test.png)
