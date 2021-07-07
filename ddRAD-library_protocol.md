@@ -80,8 +80,11 @@ Pipet 25 ul per well in a PCR plate and run the hybridization program.
 **Adapter hybrization PCR-program:**
 
 Step 1: 97.5 °C for 2:30 min
+
 Step 2: 97 °C for 30 s
+
 Then go to Step 2, 1.5 °C decrement per 30s, 50 times 
+
 Step 3: Hold at 15 °C
 
 **Note:** After taking out the adapters from the machine, place them directly on ice and never leave the hybridized adapters at RT to avoid risk of dehybridization.
@@ -108,16 +111,27 @@ Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 2. Bead-Cleanup with Large Cutoff
 
   2.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
+  
   2.2 Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
-  Note: **Keep the supernatant!** The large fragments that we want to remove are bound to the beads and can be discarded.
+  
+  **Note: Keep the supernatant!** The large fragments that we want to remove are bound to the beads and can be discarded.
+  
   2.3 Add 55.2 ul beads to the supernatant (from here on we bind and wash the remaining short fragments in the supernatant; 1:1.8 ratio , digested DNA : beads).  
+  
   **Note:** The PEG in the bead buffer is critical to force the DNA to bind to the beads and it is still abundant in the supernatant from the first step, therefore it is sufficient to add only the difference between 1.8 - 0.6 = 1.2X amount of beads according to the transferred supernatant volume.
+  
   2.4 Pellet the beads with the plate magnet for 10 min and remove the supernatant.
+  
   2.5 Add 200 ul 80% Ethanol per well while keeping the plate on the plate magnet.
+  
   2.6 Remove the Ethanol and discard it. Repeat step 2.5. and 2.6. once.
+  
   2.7 Let the beads dry for 2 min. Note: Don’t overdry the beads as this can lead to substantial library losses.
+  
   2.8 Remove the plate from the magnet and add 23 ul of EB buffer. Mix very well by pipetting and let it incubate for 10 min in RT to elute from the beads.
+  
   2.9 Pellet the beads with the plate magnet for 5 min.
+  
   2.10 Transfer 20 ul supernatant to a new well.
   
 3. Adapter ligation
@@ -137,22 +151,35 @@ Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 **Ligation PCR-program:**
 
 Step 1: 23 °C for 30 min
+
 Step 2: 65 °C for 10 min
+
 Step 3: 2 °C decrement per 90s, 21 cycles
+
 Step 4: Hold at 15 °C
 
 4. Bead-Cleanup with Large Cutoff
 
   4.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
+  
   4.2 Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
+  
   **Note: Keep the supernatant!** The large fragments that we want to remove are bound to the beads and can be discarded.
+  
   4.3 Add 41.4 ul beads to the supernatant (from here on we bind and wash the remaining short fragments in the supernatant; 1:1.5 ratio , digested DNA : beads).
+  
   4.4 Pellet the beads with the plate magnet for 10 min and remove the supernatant.
+  
   4.5 Add 200 ul 80% Ethanol per well while keeping the plate on the plate magnet.
+  
   4.6 Remove the Ethanol and discard it. Repeat step 2.5. and 2.6. once.
+  
   4.7 Let the beads dry for 2 min. Note: Don’t overdry the beads as this can lead to substantial library losses.
+  
   4.8 Remove the plate from the magnet and add 23 ul of EB buffer. Mix very well by pipetting and let it incubate for 10 min in RT to elute from the beads.
+  
   4.9 Pellet the beads with the plate magnet for 5 min.
+  
   4.10 Transfer 20 ul supernatant to a new well.
   
 5. Indexing PCR
@@ -209,8 +236,10 @@ At this step, all indexed libraries will be pooled. There are two possibilities 
 
 Binding buffer: 
 
-Note: Don’t mix the components of the binding buffer ahead! 
+Note: Don’t mix the components of the binding buffer ahead!
+ 
 | Reagent | |
+|---------|-|
 | Isopropanol | 8 parts |
 | NaOAc (3M) | 1 parts |
 
