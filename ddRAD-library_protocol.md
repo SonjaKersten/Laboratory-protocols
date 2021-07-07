@@ -49,8 +49,9 @@ Hybridzation buffer (10X):
 | Tris HCl, pH 8.0 (1M) | 100 mM | 10 ml |
 | NaCl (5M) | 500 mM | 10 ml |
 | EDTA | 10 mM | 0.3722 g | 
-| water | -| 80 ml |
+| Water | -| 80 ml |
 The buffer can be autoclaved for longer storage.
+
 
 Use the adapter pair with the same shift:
 | Enzyme | Oligo 1 | Oligo 2 |
@@ -69,13 +70,15 @@ Use the adapter pair with the same shift:
 | 100 uM Stock Oligo 1 | 10 ul |
 | 100 uM Stock Oligo 2 | 10 ul |
 | 10X Hybridization buffer | 10 ul |
-| water | 70 ul |
-|-------|-------|
-| total | 100 ul |
+| Water | 70 ul |
+|----------|----------|
+| Total | 100 ul |
 
 Pipet 25 ul per well in a PCR plate and run the hybridization program.
 
+
 **Adapter hybrization PCR-program:**
+
 Step 1: 97.5 °C for 2:30 min
 Step 2: 97 °C for 30 s
 Then go to Step 2, 1.5 °C decrement per 30s, 50 times 
@@ -89,19 +92,21 @@ ddRAD-library scheme:
 PICTURE
 
 1. Digestion
+
 | Reagent | 1x| Mastermix |
-|-----------|---------|---|-----------|
+|---------|---|-----------|
 | Normalized DNA (200 ng) | 20 ul | - |
 | FD EcoRI | 0.5 ul | |
 | FD Mph1103I | 0.5 ul | |
 | FD buffer | 3.0 ul | |
-| water | 6.0 ul | |
-|-------|--------|-|
-| total | 30 ul | |
+| Water | 6.0 ul | |
+|----------|----------|----------|
+| Total | 30 ul | |
 
 Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 
 2. Bead-Cleanup with Large Cutoff
+
   2.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   2.2 Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
   Note: **Keep the supernatant!** The large fragments that we want to remove are bound to the beads and can be discarded.
@@ -116,25 +121,28 @@ Incubate the reaction at 37 °C for 3 hours in a PCR machine.
   2.10 Transfer 20 ul supernatant to a new well.
   
 3. Adapter ligation
+
 | Reagent | 1x| Mastermix |
-|-----------|---------|---|-----------|
+|---------|---|-----------|
 | Digested and cleaned DNA | 20 ul |-|
 | T4 DNA ligase | 1.0 ul | |
 | T4 lig buffer 10x | 3.0 ul | |
 | Adapter 1 - EcoRI * | 0.5 ul | |
 | Adapter 2 - Mph1103I* | 0.5 ul |
-| water | 5.0 ul | |
-|-------|--------|-|
-| total | 30 ul | |
+| Water | 5.0 ul | |
+|----------|----------|----------|
+| Total | 30 ul | |
 /* adapters must be hybridized, following the instructions of section Adapter preparation. Keep in mind to combine adapters with different shifts per HiSeq 3000 lane.
 
 **Ligation PCR-program:**
+
 Step 1: 23 °C for 30 min
 Step 2: 65 °C for 10 min
 Step 3: 2 °C decrement per 90s, 21 cycles
 Step 4: Hold at 15 °C
 
 4. Bead-Cleanup with Large Cutoff
+
   4.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   4.2 Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
   **Note: Keep the supernatant!** The large fragments that we want to remove are bound to the beads and can be discarded.
@@ -148,6 +156,7 @@ Step 4: Hold at 15 °C
   4.10 Transfer 20 ul supernatant to a new well.
   
 5. Indexing PCR
+
 With the attached 48 index oligos, 576 samples can be multiplexed (6 plates).
 Please use the P5 and P7 index-plates as following with an 8-channel pipet:
 
@@ -161,146 +170,94 @@ Please use the P5 and P7 index-plates as following with an 8-channel pipet:
 | Plate 6 | 2 | 3 |
 
 
-
-Reagent
-1x
-Mastermix
-Adapter ligated and cleaned DNA
-10 ul
--
-Primer P5 (10uM)
-1.25 ul
-Primer P7 (10uM)
-1.25 ul
-10mM dNTPs
-0.5 ul
-Robust 2G Enzyme
-0.2 ul
-Robust Buffer A
-5 ul
-water
-6.8 ul
-total
-25 ul
+| Reagent | 1x| Mastermix |
+|---------|---|-----------|
+| Adapter ligated and cleaned DNA | 10 ul | - |
+| Primer P5 (10uM) | 1.25 ul | |
+| Primer P7 (10uM) | 1.25 ul | |
+| 10mM dNTPs | 0.5 ul | |
+| Robust 2G Enzyme | 0.2 ul | |
+| Robust Buffer A | 5 ul | |
+| Water | 6.8 ul | |
+|----------|----------|----------|
+| Total | 25 ul
 
 
 Indexing PCR-program:
-Step
-Temperature
-Duration
-Cycles
-Initial denaturation
-95 °C
-3 min
-1
-Denaturation
-95 °C
-15 s
-10
-Annealing
-60 °C
-15 s
-10
-Extension
-72 °C
-15 s
-10
-Final Extension
-72 °C
-1 min
-1
-Hold
-15 °C
-∞
-1
 
+| Step | Temperature | Duration | Cycles |
+|------|-------------|----------|--------|
+| Initial denaturation | 95 °C | 3 min | 1 |
+| Denaturation | 95 °C | 15 s | 10 |
+| Annealing | 60 °C | 15 s | 10 |
+| Extension | 72 °C | 15 s | 10 |
+| Final Extension | 72 °C | 1 min | 1 |
+| Hold | 15 °C | ∞ | 1 |
 
 Expected amount per library: 5-10 ng/ul.
-Pooling
+
+6. Pooling
+
 At this step, all indexed libraries will be pooled. There are two possibilities to proceed:
-Pooling based on measurements with a plate reader (e.g. with Pico Green).
-Equal pooling of a small fraction (2 ul) of each library and proceed from here through the complete protocol. Then the pool can be spiked into a HiSeq lane for ca. 5% and a calculation for the repooling can be done based on the amount of sequenced reads per library. This is the most accurate approach and provides excellent equal coverage for all samples. Caveat: Once you have calculated the real amount per library for pooling based on the spike-in, you will need to restart the protocol from here.
 
-Choose your pooling approach and pool all libraries. A total of 3 - 4 ug per pool is enough to run your samples in several lanes.
-Column purification
+  1. Pooling based on measurements with a plate reader (e.g. with Pico Green).
+  2. Equal pooling of a small fraction (2 ul) of each library and proceed from here through the complete protocol. Then the pool can be spiked into a HiSeq lane for ca. 5% and a calculation for the repooling can be done based on the amount of sequenced reads per library. This is the most accurate approach and provides excellent equal coverage for all samples. Caveat: Once you have calculated the real amount per library for pooling based on the spike-in, you will need to restart the protocol from here.
+
+  Choose your pooling approach and pool all libraries. A total of 3 - 4 ug per pool is enough to run your samples in several lanes.
+  
+7. Column purification
+
 Binding buffer: 
+
 Note: Don’t mix the components of the binding buffer ahead! 
-Reagent
-
-
-Isopropanol
-8 parts
-NaOAc (3M)
-1 parts
-
+| Reagent | |
+| Isopropanol | 8 parts |
+| NaOAc (3M) | 1 parts |
 
 All  following centfrifugation steps were conducted for 1 min and with a speed of 13000 rcf.
-Calculate the parts for the binding buffer in the ratio 1:1 to your sample (e.g. 500 ul DNA + 500 ul binding buffer). Then add first the Isopropanol to your sample. Mix it with your DNA and then add the NaOAc.
-Load everything on an EconoSpin column. Spin it. Remove flowthrough. If your volume is higher than 800 ul, repeat this step until you have everything bound to the column.
-Continue with two Ethanol washes: Add 800 ul Ethanol and spin it. Remove flowthrough. Repeat it.
-Another last empty spin to reduce Ethanol residuals.
-Place the column in a new Eppendorf tube and add 40 ul preheated water (60 °C). Let it incubate for 2 min.
-Second elution: Pipet the flowthrough again on the column and spin it.
-Recovery per pool was 35 ul.
-Blue Pippin size selection with a 1.5% gel and R2 internal standards
+
+  7.1 Calculate the parts for the binding buffer in the ratio 1:1 to your sample (e.g. 500 ul DNA + 500 ul binding buffer). Then add first the Isopropanol to your sample. Mix it with your DNA and then add the NaOAc.
+  7.2 Load everything on an EconoSpin column. Spin it. Remove flowthrough. If your volume is higher than 800 ul, repeat this step until you have everything bound to the column.
+  7.3 Continue with two Ethanol washes: Add 800 ul Ethanol and spin it. Remove flowthrough. Repeat it.
+  7.4 Another last empty spin to reduce Ethanol residuals.
+  7.5 Place the column in a new Eppendorf tube and add 40 ul preheated water (60 °C). Let it incubate for 2 min.
+  7.6 Second elution: Pipet the flowthrough again on the column and spin it.
+  7.7 Recovery per pool was 35 ul.
+  
+8. Blue Pippin size selection with a 1.5% gel and R2 internal standards
+
 Perform a size selection with Blue Pippin range: 250 - 450 bp.
 
-Note: Max-Planck Blue Pippin has a shift, therefore choose 300 - 500 bp on the machine.
+**Note:** Max-Planck Blue Pippin has a shift, therefore choose 300 - 500 bp on the machine.
 
-Bioanalyzer and Qubit measurement
+9. Bioanalyzer and Qubit measurement
+
 Perform a bioanalyzer with a HS chip and a Qubit HS concentration measurement.
 
 Bioanalyzer example: Mean fragment size: 341 bp.
 
-
-PCR for library pool efficiency control
-Reagent
-1x
-Mastermix
-Pooled and size selected library
-1 ul
--
-Illumina Enhanced PCR Mix (EPM)
-10 ul
-Illumina PCR primer cocktail (PPC)
-2.5 ul
-water
-11.5 ul
-total
-25 ul
+PICTURE
 
 
+10. PCR for library pool efficiency control
+| Reagent | 1x| Mastermix |
+|---------|---|-----------|
+| Pooled and size selected library | 1 ul | - |
+| Illumina Enhanced PCR Mix (EPM) | 10 ul | |
+| Illumina PCR primer cocktail (PPC) | 2.5 ul | |
+| water | 11.5 ul | |
+|----------|----------|----------|
+| total | 25 ul | |
 
 
 PCR-program:
-Step
-Temperature
-Duration
-Cycles
-Initial denaturation
-95 °C
-3 min
-1
-Denaturation
-98 °C
-20 s
-8
-Annealing
-60 °C
-15 s
-8
-Extension
-72 °C
-30 s
-8
-Final Extension
-72 °C
-5 min
-1
-Hold
-4 °C
-∞
-1
+| Step | Temperature | Duration | Cycles |
+| Initial denaturation | 95 °C | 3 min | 1 |
+| Denaturation | 98 °C | 20 s | 8 |
+| Annealing | 60 °C | 15 s | 8 |
+| Extension | 72 °C | 30 s | 8 |
+| Final Extension | 72 °C | 5 min | 1 |
+| Hold | 4 °C | ∞ | 1 |
 
 
 Make a Qubit HS concentration measurement after PCR.
