@@ -95,7 +95,7 @@ ddRAD-library scheme:
 
 PICTURE
 
-#### 1. Digestion
+### 1. Digestion
 
 | Reagent | 1x| Mastermix |
 |---------|---|-----------|
@@ -109,7 +109,7 @@ PICTURE
 
 Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 
-#### 2. Bead-Cleanup with Large Cutoff
+### 2. Bead-Cleanup with Large Cutoff
 
   **2.1** Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   
@@ -135,7 +135,7 @@ Incubate the reaction at 37 °C for 3 hours in a PCR machine.
   
   **2.10** Transfer 20 ul supernatant to a new well.
   
-#### 3. Adapter ligation
+### 3. Adapter ligation
 
 | Reagent | 1x| Mastermix |
 |---------|---|-----------|
@@ -160,31 +160,31 @@ Incubate the reaction at 37 °C for 3 hours in a PCR machine.
 
 **Step 4:** Hold at 15 °C
 
-#### 4. Bead-Cleanup with Large Cutoff
+### 4. Bead-Cleanup with Large Cutoff
 
-  4.1 Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
+  **4.1** Add 18 ul of SPRI beads to each well with the digestion reaction (1:0.6 ratio, digested DNA : beads), mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   
-  4.2 Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
+  **4.2** Pellet the beads with the plate magnet for 5 min and transfer 46 ul of the supernatant to a new well.
   
   **Note: Keep the supernatant!** The large fragments that we want to remove are bound to the beads and can be discarded.
   
-  4.3 Add 41.4 ul beads to the supernatant (from here on we bind and wash the remaining short fragments in the supernatant; 1:1.5 ratio , digested DNA : beads).
+  **4.3** Add 41.4 ul beads to the supernatant (from here on we bind and wash the remaining short fragments in the supernatant; 1:1.5 ratio , digested DNA : beads).
   
-  4.4 Pellet the beads with the plate magnet for 10 min and remove the supernatant.
+  **4.4** Pellet the beads with the plate magnet for 10 min and remove the supernatant.
   
-  4.5 Add 200 ul 80% Ethanol per well while keeping the plate on the plate magnet.
+  **4.5** Add 200 ul 80% Ethanol per well while keeping the plate on the plate magnet.
   
-  4.6 Remove the Ethanol and discard it. Repeat step 2.5. and 2.6. once.
+  **4.6** Remove the Ethanol and discard it. Repeat step 2.5. and 2.6. once.
   
-  4.7 Let the beads dry for 2 min. Note: Don’t overdry the beads as this can lead to substantial library losses.
+  **4.7** Let the beads dry for 2 min. Note: Don’t overdry the beads as this can lead to substantial library losses.
   
-  4.8 Remove the plate from the magnet and add 23 ul of EB buffer. Mix very well by pipetting and let it incubate for 10 min in RT to elute from the beads.
+  **4.8** Remove the plate from the magnet and add 23 ul of EB buffer. Mix very well by pipetting and let it incubate for 10 min in RT to elute from the beads.
   
-  4.9 Pellet the beads with the plate magnet for 5 min.
+  **4.9** Pellet the beads with the plate magnet for 5 min.
   
-  4.10 Transfer 20 ul supernatant to a new well.
+  **4.10** Transfer 20 ul supernatant to a new well.
   
-#### 5. Indexing PCR
+### 5. Indexing PCR
 
 With the attached 48 index oligos, 576 samples can be multiplexed (6 plates).
 Please use the P5 and P7 index-plates as following with an 8-channel pipet:
@@ -225,7 +225,7 @@ Indexing PCR-program:
 
 Expected amount per library: 5-10 ng/ul.
 
-#### 6. Pooling
+### 6. Pooling
 
 At this step, all indexed libraries will be pooled. There are two possibilities to proceed:
 
@@ -235,7 +235,7 @@ At this step, all indexed libraries will be pooled. There are two possibilities 
 
   Choose your pooling approach and pool all libraries. A total of 3 - 4 ug per pool is enough to run your samples in several lanes.
   
-#### 7. Column purification
+### 7. Column purification
 
 Binding buffer: 
 
@@ -248,27 +248,27 @@ Note: Don’t mix the components of the binding buffer ahead!
 
 All  following centfrifugation steps were conducted for 1 min and with a speed of 13000 rcf.
 
-  7.1 Calculate the parts for the binding buffer in the ratio 1:1 to your sample (e.g. 500 ul DNA + 500 ul binding buffer). Then add first the Isopropanol to your sample. Mix it with your DNA and then add the NaOAc.
+  **7.1** Calculate the parts for the binding buffer in the ratio 1:1 to your sample (e.g. 500 ul DNA + 500 ul binding buffer). Then add first the Isopropanol to your sample. Mix it with your DNA and then add the NaOAc.
   
-  7.2 Load everything on an EconoSpin column. Spin it. Remove flowthrough. If your volume is higher than 800 ul, repeat this step until you have everything bound to the column.
+  **7.2** Load everything on an EconoSpin column. Spin it. Remove flowthrough. If your volume is higher than 800 ul, repeat this step until you have everything bound to the column.
   
-  7.3 Continue with two Ethanol washes: Add 800 ul Ethanol and spin it. Remove flowthrough. Repeat it.
+  **7.3** Continue with two Ethanol washes: Add 800 ul Ethanol and spin it. Remove flowthrough. Repeat it.
   
-  7.4 Another last empty spin to reduce Ethanol residuals.
+  **7.4** Another last empty spin to reduce Ethanol residuals.
   
-  7.5 Place the column in a new Eppendorf tube and add 40 ul preheated water (60 °C). Let it incubate for 2 min.
+  **7.5** Place the column in a new Eppendorf tube and add 40 ul preheated water (60 °C). Let it incubate for 2 min.
   
-  7.6 Second elution: Pipet the flowthrough again on the column and spin it.
+  **7.6** Second elution: Pipet the flowthrough again on the column and spin it.
   
-  7.7 Recovery per pool was 35 ul.
+  **7.7** Recovery per pool was 35 ul.
   
-#### 8. Blue Pippin size selection with a 1.5% gel and R2 internal standards
+### 8. Blue Pippin size selection with a 1.5% gel and R2 internal standards
 
 Perform a size selection with Blue Pippin range: 250 - 450 bp.
 
 **Note:** Max-Planck Blue Pippin has a shift, therefore choose 300 - 500 bp on the machine.
 
-#### 9. Bioanalyzer and Qubit measurement
+### 9. Bioanalyzer and Qubit measurement
 
 Perform a bioanalyzer with a HS chip and a Qubit HS concentration measurement.
 
@@ -277,7 +277,7 @@ Bioanalyzer example: Mean fragment size: 341 bp.
 PICTURE
 
 
-#### 10. PCR for library pool efficiency control
+### 10. PCR for library pool efficiency control
 
 | Reagent | 1x| Mastermix |
 |---------|---|-----------|
@@ -290,7 +290,9 @@ PICTURE
 
 
 PCR-program:
+
 | Step | Temperature | Duration | Cycles |
+|------|-------------|----------|--------|
 | Initial denaturation | 95 °C | 3 min | 1 |
 | Denaturation | 98 °C | 20 s | 8 |
 | Annealing | 60 °C | 15 s | 8 |
@@ -301,7 +303,7 @@ PCR-program:
 
 Make a Qubit HS concentration measurement after PCR.
 
-Computation: 
+**Computation:**
 
 We performed 8 cycles, therefore 28 = 256:
 
@@ -333,6 +335,7 @@ The minimum volume for submission and qubit measurements is 13 ul:
 (2.) <overall_ng_to_submit> / <library_pool_conc.> = <ul_of_library_pool_to_pipet>
 
 (3.) 13 ul - <ul_of_library_pool_to_pipet> = <ul_of_resuspension_buffer>
+
 Pipet rather a bit more of your library and make several control qubit measurements. You should hit the calculated <desired_end_conc.> for submission.
 
 
@@ -363,107 +366,61 @@ Adapter oligos (Purification: HPLC):
 Coloured bases are the shift bases.
 
 Indexing oligos (Purification: RP1, Sigma Aldrich):
-Oligo name
-Sequence
-P5_Tue_8nt_0011
-5’ AATGATACGGCGACCACCGAGATCTACACtggttcttACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0012
-5’ AATGATACGGCGACCACCGAGATCTACACgtcttcttACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0013
-5’ AATGATACGGCGACCACCGAGATCTACACccattcttACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0014
-5’ AATGATACGGCGACCACCGAGATCTACACatctcattACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0015
-5’ AATGATACGGCGACCACCGAGATCTACACtgattggtACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0016
-5’ AATGATACGGCGACCACCGAGATCTACACggtctggtACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0017
-5’ AATGATACGGCGACCACCGAGATCTACACgtaatggtACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0018
-5’ AATGATACGGCGACCACCGAGATCTACACccgaaggtACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0019
-5’ AATGATACGGCGACCACCGAGATCTACACccaagagtACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0020
-5’ AATGATACGGCGACCACCGAGATCTACACgctcttctACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0044
-5’ AATGATACGGCGACCACCGAGATCTACACaactctcgACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0045
-5’ AATGATACGGCGACCACCGAGATCTACACatcgaacgACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0047
-5’ AATGATACGGCGACCACCGAGATCTACACtaagttagACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0051
-5’ AATGATACGGCGACCACCGAGATCTACACcctaccagACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0054
-5’ AATGATACGGCGACCACCGAGATCTACACacctcttcACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0060
-5’ AATGATACGGCGACCACCGAGATCTACACccagttccACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0064
-5’ AATGATACGGCGACCACCGAGATCTACACtggctaccACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0069
-5’ AATGATACGGCGACCACCGAGATCTACACccgaatacACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0075
-5’ AATGATACGGCGACCACCGAGATCTACACccagcaacACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0086
-5’ AATGATACGGCGACCACCGAGATCTACACacctatcaACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0088
-5’ AATGATACGGCGACCACCGAGATCTACACggtccgcaACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0090
-5’ AATGATACGGCGACCACCGAGATCTACACcatctccaACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0093
-5’ AATGATACGGCGACCACCGAGATCTACACgaatctaaACACTCTTTCCCTACACGACGC 3’
-P5_Tue_8nt_0100
-5’ AATGATACGGCGACCACCGAGATCTACACccaggcaaACACTCTTTCCCTACACGACGC 3’
-P7_Tue_8nt_0011
-5’ CAAGCAGAAGACGGCATACGAGATtggttcttGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0012
-5’ CAAGCAGAAGACGGCATACGAGATattctcttGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0013
-5’ CAAGCAGAAGACGGCATACGAGATcatggattGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0014
-5’ CAAGCAGAAGACGGCATACGAGATatcttggtGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0015
-5’ CAAGCAGAAGACGGCATACGAGATggtctggtGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0016
-5’ CAAGCAGAAGACGGCATACGAGATaagttcgtGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0017
-5’ CAAGCAGAAGACGGCATACGAGATtactaagtGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0018
-5’ CAAGCAGAAGACGGCATACGAGATccggttctGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0019
-5’ CAAGCAGAAGACGGCATACGAGATcttattctGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0020
-5’ CAAGCAGAAGACGGCATACGAGATcgttctctGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0033
-5’ CAAGCAGAAGACGGCATACGAGATaggtatggGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0044
-5’ CAAGCAGAAGACGGCATACGAGATgccgtccgGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0047
-5’ CAAGCAGAAGACGGCATACGAGATcttgatagGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0050
-5’ CAAGCAGAAGACGGCATACGAGATtaacgaagGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0062
-5’ CAAGCAGAAGACGGCATACGAGATataccgccGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0065
-5’ CAAGCAGAAGACGGCATACGAGATcaactaccGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0068
-5’ CAAGCAGAAGACGGCATACGAGATtcgagtacGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0074
-5’ CAAGCAGAAGACGGCATACGAGATgcctgaacGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0076
-5’ CAAGCAGAAGACGGCATACGAGATgttgcaacGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0078
-5’ CAAGCAGAAGACGGCATACGAGATgcagattaGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0085
-5’ CAAGCAGAAGACGGCATACGAGATtgcgtccaGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0093
-5’ CAAGCAGAAGACGGCATACGAGATagaagtaaGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0097
-5’ CAAGCAGAAGACGGCATACGAGATctagtcaaGTGACTGGAGTTCAGACGTGTGC 3’
-P7_Tue_8nt_0099
-5’ CAAGCAGAAGACGGCATACGAGATtctgccaaGTGACTGGAGTTCAGACGTGTGC 3’
+| Oligo name | Sequence |
+|------------|----------|
+| P5_Tue_8nt_0011 | 5’ AATGATACGGCGACCACCGAGATCTACACtggttcttACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0012 | 5’ AATGATACGGCGACCACCGAGATCTACACgtcttcttACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0013 | 5’ AATGATACGGCGACCACCGAGATCTACACccattcttACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0014 | 5’ AATGATACGGCGACCACCGAGATCTACACatctcattACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0015 | 5’ AATGATACGGCGACCACCGAGATCTACACtgattggtACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0016 | 5’ AATGATACGGCGACCACCGAGATCTACACggtctggtACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0017 | 5’ AATGATACGGCGACCACCGAGATCTACACgtaatggtACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0018 | 5’ AATGATACGGCGACCACCGAGATCTACACccgaaggtACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0019 | 5’ AATGATACGGCGACCACCGAGATCTACACccaagagtACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0020 | 5’ AATGATACGGCGACCACCGAGATCTACACgctcttctACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0044 | 5’ AATGATACGGCGACCACCGAGATCTACACaactctcgACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0045 | 5’ AATGATACGGCGACCACCGAGATCTACACatcgaacgACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0047 | 5’ AATGATACGGCGACCACCGAGATCTACACtaagttagACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0051 | 5’ AATGATACGGCGACCACCGAGATCTACACcctaccagACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0054 | 5’ AATGATACGGCGACCACCGAGATCTACACacctcttcACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0060 | 5’ AATGATACGGCGACCACCGAGATCTACACccagttccACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0064 | 5’ AATGATACGGCGACCACCGAGATCTACACtggctaccACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0069 | 5’ AATGATACGGCGACCACCGAGATCTACACccgaatacACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0075 | 5’ AATGATACGGCGACCACCGAGATCTACACccagcaacACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0086 | 5’ AATGATACGGCGACCACCGAGATCTACACacctatcaACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0088 | 5’ AATGATACGGCGACCACCGAGATCTACACggtccgcaACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0090 | 5’ AATGATACGGCGACCACCGAGATCTACACcatctccaACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0093 | 5’ AATGATACGGCGACCACCGAGATCTACACgaatctaaACACTCTTTCCCTACACGACGC 3’ |
+| P5_Tue_8nt_0100 | 5’ AATGATACGGCGACCACCGAGATCTACACccaggcaaACACTCTTTCCCTACACGACGC 3’ |
+| P7_Tue_8nt_0011 | 5’ CAAGCAGAAGACGGCATACGAGATtggttcttGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0012 | 5’ CAAGCAGAAGACGGCATACGAGATattctcttGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0013 | 5’ CAAGCAGAAGACGGCATACGAGATcatggattGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0014 | 5’ CAAGCAGAAGACGGCATACGAGATatcttggtGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0015 | 5’ CAAGCAGAAGACGGCATACGAGATggtctggtGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0016 | 5’ CAAGCAGAAGACGGCATACGAGATaagttcgtGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0017 | 5’ CAAGCAGAAGACGGCATACGAGATtactaagtGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0018 | 5’ CAAGCAGAAGACGGCATACGAGATccggttctGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0019 | 5’ CAAGCAGAAGACGGCATACGAGATcttattctGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0020 | 5’ CAAGCAGAAGACGGCATACGAGATcgttctctGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0033 | 5’ CAAGCAGAAGACGGCATACGAGATaggtatggGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0044 | 5’ CAAGCAGAAGACGGCATACGAGATgccgtccgGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0047 | 5’ CAAGCAGAAGACGGCATACGAGATcttgatagGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0050 | 5’ CAAGCAGAAGACGGCATACGAGATtaacgaagGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0062 | 5’ CAAGCAGAAGACGGCATACGAGATataccgccGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0065 | 5’ CAAGCAGAAGACGGCATACGAGATcaactaccGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0068 | 5’ CAAGCAGAAGACGGCATACGAGATtcgagtacGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0074 | 5’ CAAGCAGAAGACGGCATACGAGATgcctgaacGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0076 | 5’ CAAGCAGAAGACGGCATACGAGATgttgcaacGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0078 | 5’ CAAGCAGAAGACGGCATACGAGATgcagattaGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0085 | 5’ CAAGCAGAAGACGGCATACGAGATtgcgtccaGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0093 | 5’ CAAGCAGAAGACGGCATACGAGATagaagtaaGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0097 | 5’ CAAGCAGAAGACGGCATACGAGATctagtcaaGTGACTGGAGTTCAGACGTGTGC 3’ |
+| P7_Tue_8nt_0099 | 5’ CAAGCAGAAGACGGCATACGAGATtctgccaaGTGACTGGAGTTCAGACGTGTGC 3’ |
 
 Indexing oligos plate design:
+
 The above indexes are ordered by bases. If you take for example only indexes 11-20,  indexing bases would not be balanced, because all your indexes would start with an A. That’s why the indexing plate design is not ordered by numbers, but makes sure that in all columns (P5) or rows (P7) the indexing bases are equally distributed. This gives you the possibility to take only one or two columns of P5 or only one P7 plate without having to worry about generating an indexing bias.
+
 P5 - Plate 1:
 
 PICTURE
