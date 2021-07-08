@@ -422,14 +422,14 @@ The above indexes are ordered by bases. If you take for example only indexes 11-
 
 P5 - Plate 1:
 
-![alt text](/Pictures/P5_Plate1_.png)
+![alt text](Pictures/P5_Plate1_.png)
 
 P7 - Plate 1:
 
-![alt text](/Pictures/P7_Plate1.png)
+![alt text](Pictures/P7_Plate1.png)
 
 P7 - Plate 2:
 
-![alt text](/Pictures/P7_Plate2_.png)
+![alt text](Pictures/P7_Plate2_.png)
 
 The combinations of all indexes are listed in a separate excel sheet which can be used to generate a submission file for demultiplexing.
