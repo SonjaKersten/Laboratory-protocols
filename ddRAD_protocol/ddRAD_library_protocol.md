@@ -4,7 +4,7 @@ This protocol generates double-digest RAD libraries from **200 ng input DNA (10 
 
 *In-silico* digestion example for *Alopecurus myosuroides*:
 
-![alt text](Pictures/Digestion.pdf)
+![alt text](Pictures/Digestion.png)
 
 **In numbers:** We are aiming for 111744 fragments, which represents 1.1% of the whole genome.
 
