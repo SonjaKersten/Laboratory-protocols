@@ -4,7 +4,7 @@ This protocol generates double-digest RAD libraries from **200 ng input DNA (10 
 
 *In-silico* digestion example for *Alopecurus myosuroides*:
 
-![alt text](/Pictures/Digestion.png)
+![alt text](Pictures/Digestion.pdf)
 
 **In numbers:** We are aiming for 111744 fragments, which represents 1.1% of the whole genome.
 
@@ -93,7 +93,7 @@ Then go to Step 2, 1.5 °C decrement per 30s, 50 times
 ## Protocol
 ddRAD-library scheme:
 
-![alt text](/Pictures/RAD_scheme.png)
+![alt text](Pictures/RAD_scheme.png)
 
 ### 1. Digestion
 
@@ -274,7 +274,7 @@ Perform a bioanalyzer with a HS chip and a Qubit HS concentration measurement.
 
 Bioanalyzer example: Mean fragment size: 341 bp.
 
-![alt text](/Pictures/Bioanalyzer.png)
+![alt text](Pictures/Bioanalyzer.png)
 
 
 ### 10. PCR for library pool efficiency control
@@ -422,7 +422,7 @@ The above indexes are ordered by bases. If you take for example only indexes 11-
 
 P5 - Plate 1:
 
-![alt text](Pictures/P5_Plate1_.png)
+![alt text](Pictures/P5_Plate1.png)
 
 P7 - Plate 1:
 
@@ -430,6 +430,6 @@ P7 - Plate 1:
 
 P7 - Plate 2:
 
-![alt text](Pictures/P7_Plate2_.png)
+![alt text](Pictures/P7_Plate2.png)
 
 The combinations of all indexes are listed in a separate excel sheet which can be used to generate a submission file for demultiplexing.
