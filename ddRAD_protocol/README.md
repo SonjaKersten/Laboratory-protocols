@@ -305,7 +305,7 @@ Make a Qubit HS concentration measurement after PCR.
 
 **Computation:**
 
-We performed 8 cycles, therefore 28 = 256:
+We performed 8 cycles, therefore 2^8 = 256:
 
 <Conc_before_PCR> * 256 = <expected_amount_with_100%_efficiency>
 
@@ -322,7 +322,7 @@ Note: Use RSB for library dilution!
 
 Computation:
 
-Formula: <Desired nM> * 660 * <mean_fragment_length> / 106
+Formula: <Desired nM> * 660 * <mean_fragment_length> / 10^6
 
 Normally we submit 2.5 nM for a HiSeq 3000 lane:
 
@@ -363,7 +363,6 @@ Adapter oligos (Purification: HPLC):
 | G-44191 | 5’ GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTTGCATGC*A 3’ |
 
 * PTO
-Coloured bases are the shift bases.
 
 Indexing oligos (Purification: RP1, Sigma Aldrich):
 | Oligo name | Sequence |
