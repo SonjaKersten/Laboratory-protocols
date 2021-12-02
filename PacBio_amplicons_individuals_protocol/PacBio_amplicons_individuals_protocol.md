@@ -4,7 +4,7 @@ This protocol generates ALS/ACCase-amplicon libraries from **30/50 ng input DNA 
 
 ## Workflow
 
-![alt text]("Pictures/Workflow.png" width="5")
+![alt text]("Pictures/Workflow.png")
 
 ## Materials & Machines
 
