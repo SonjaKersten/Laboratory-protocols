@@ -4,7 +4,7 @@ This protocol generates ALS/ACCase-amplicon libraries from **30/50 ng input DNA 
 
 ## Workflow
 
-![alt text](Pictures/Workflow.png)
+![alt text](Pictures/Workflow.png| width=5)
 
 ## Materials & Machines
 
@@ -125,9 +125,8 @@ Use prepared indexing plates and add the reagents to a plate by following the or
 
 
 **Indexing PCR-program:**
-
 | Step | Temperature | Duration | Cycles |
-|------|–------------|----------|--------|
+|------|-------------|----------|--------|
 | Denaturation | 98 °C | 10 s | 28 |
 | Annealing & Extension | 68 °C | 3:30 min | 28 |
 | Final Extension | 72 °C | 10 min | 1 |
