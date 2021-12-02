@@ -4,7 +4,7 @@ This protocol generates ALS/ACCase-amplicon libraries from **30/50 ng input DNA 
 
 ## Workflow
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/Workflow.png)
 
 ## Materials & Machines
 
@@ -28,7 +28,7 @@ This protocol generates ALS/ACCase-amplicon libraries from **30/50 ng input DNA 
 * Bioanalyzer Instrument
 * Magnetic stand for 2 ml tubes
 * Centrifuge for plates and Eppendorf tubes
-* Thermo cycler
+* Thermocycler
 
 ## ALS amplicons
 
@@ -38,7 +38,7 @@ If you work with plates, it is recommended to prepare the indexing plates before
 Please use the forward and reverse index-plates as following:
 
 | Sample plate | Forward plate | Reverse column |
-|--------------|----------|-----------|
+|--------------|---------------|----------------|
 | Plate 1 | 1 | 1 |
 | Plate 2 | 1 | 2 |
 | Plate 3 | 1 | 3 |
@@ -53,7 +53,7 @@ Please use the forward and reverse index-plates as following:
 |---------|------------|
 | 100 uM Stock forward Oligo | 8.5 ul |
 | water | 841.5 ul |
-|-------|----------|
+|----------------------------|------------|
 | total | 850 ul |
 
 Pipette 100 ul per well in a PCR plate.
@@ -61,13 +61,13 @@ Pipette 100 ul per well in a PCR plate.
 ###Plate Design:
 **Forward - Plate 1**
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/ALS_Forward1.png)
 
 
 **Forward - Plate 2**
 
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/ALS_Forward2.png)
 
 **Reverse primer - Concentration: 5 uM**
 
@@ -75,7 +75,7 @@ Pipette 100 ul per well in a PCR plate.
 |---------|------------|
 | 100 uM Stock reverse Oligo | 5 ul |
 | water | 95 ul |
-|-------|----------|
+|----------------------------|------------|
 | total | 100 ul |
 
 Pipette 100 ul per well in a PCR plate.
@@ -84,7 +84,7 @@ Pipette 100 ul per well in a PCR plate.
 ###Plate Design:
 **Reverse**
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/ALS_Reverse.png)
 
 ## Protocol
 
@@ -103,7 +103,7 @@ PrimeSTAR® GXL DNA Polymerase (Takara, R050B).
 | dNTPs | 1.6 ul |   |
 | Prime STAR polymerase | 0.4 ul |   |
 | water | 9.0 ul |   |
-|-------|--------|---|
+|-----------------------|--------|-----------|
 | total | 20 ul |   |
 
 **96 - well plate assay:**
@@ -119,13 +119,14 @@ Use prepared indexing plates and add the reagents to a plate by following the or
 | 5 x buffer | 4 ul | 452 ul |
 | dNTPs | 1.6 ul | 180.8 ul|
 | Prime STAR polymerase | 0.4 ul | 45.2 ul |
-| Step 4: Work on ice. Distribute 151.3 ul of this mastermix to every well of a clean 8-well PCR strip. Remember the orientation of the strip. | ![alt text](Pictures/Digestion.png) https://www.fishersci.de/shop/products/axygen-8-strip-pcr-tubes-10/12657215 | |
-| Step 5: Choose one column of the reverse indexing plate. Use a multichannel and add  13.8 ul **reverse primer** of this chosen column to the mastermix in the 8-well PCR strip, close it, mix it and centrifuge it down. | | |
-| Step 6: Use a multichannel pipette and distribute 12 ul of the mastermix + reverse primer from that 8-well PCR strip, column by column to your plate containing the DNA and the forward primers. Mix it, centrifuge it down and keep it on ice. Place it immediatly in the PCR machine. | | |
+| Step 4: Work on ice. Distribute 151.3 ul of this **mastermix** to every well of a clean 8-well PCR strip. Remember the orientation of the strip. | ![alt text](Pictures/8_strip.png) | |
+| Step 5: Choose one column of the reverse indexing plate. Use a multichannel and add  **13.8 ul reverse primer** of this chosen column to the mastermix in the 8-well PCR strip, close it, mix it and centrifuge it down. | | |
+| Step 6: Use a multichannel pipette and distribute 12 ul of the **mastermix + reverse primer** from that 8-well PCR strip, column by column to your plate containing the DNA and the forward primers. Mix it, centrifuge it down and keep it on ice. Place it immediatly in the PCR machine. | | |
 
 
 **Indexing PCR-program:**
 | Step | Temperature | Duration | Cycles |
+|------|–------------|––––––––––|--------|
 | Denaturation | 98 °C | 10 s | 28 |
 | Annealing & Extension | 68 °C | 3:30 min | 28 |
 | Final Extension | 72 °C | 10 min | 1 |
@@ -135,49 +136,71 @@ Expected amount per library: 8-15 ng/ul.
 
 Gel picture, ALS-amplicons, 3.5 kb length:
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/ALS_Gel.png)
 
 ### 2.Pooling
 At this step, all indexed amplicon libraries are pooled. Therefore all libraries need to be measured either with a Qubit or a plate reader and pooled in equal amounts. It can be done manually or with an automated system like a Tecan pipetting robot.
 
 ### 3.Bead-Cleanup
 
-**3.1.** If necessary split amplicon pools into several 2 ml tubes. 
-**3.2.** Add SPRI magnetic beads in a 1:1 library:bead ratio to the tubes, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
-**3.3.** Place on the magnetic stand for 5 min or until beads are bound to the side.
-**3.4.** Remove and discard supernatant, leaving tubes on the magnetic stand.
-**3.5.** Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
-**3.6.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
-**3.7.** Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
-**3.8.** Add 152 uL H2O and resuspend the beads by pipetting carefully.
-**3.9.** Incubate 5 min at room temperature.
-**3.10.** Place on a magnetic stand for 5 min or until beads are stuck to the side.
-**3.11.** Transfer 150 ul supernatant (containing the DNA) to a fresh tube.
-**3.12.** Add AMPure XP magnetic beads in a 0.45:1 library:bead ratio to the tubes, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
-**3.13.** Place on the magnetic stand for 5 min or until beads are bound to the side.
-**3.14.** Remove and discard supernatant, leaving tubes on the magnetic stand.
-**3.15.** Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
-**3.16.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
-**3.17.** Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
-**3.18.** Add 52 uL H2O and resuspend the beads by pipetting carefully.
-**3.19.** Incubate 5 min at room temperature.
-**3.20.** Place on a magnetic stand for 5 min or until beads are stuck to the side.
-**3.21.** Transfer 50 ul supernatant (containing the DNA) to a fresh tube.
+  **3.1.** If necessary split amplicon pools into several 2 ml tubes.
+ 
+  **3.2.** Add SPRI magnetic beads in a 1:1 library:bead ratio to the tubes, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
+
+  **3.3.** Place on the magnetic stand for 5 min or until beads are bound to the side.
+
+  **3.4.** Remove and discard supernatant, leaving tubes on the magnetic stand.
+
+  **3.5.** Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
+
+  **3.6.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
+
+  **3.7.** Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
+
+  **3.8.** Add 152 uL H2O and resuspend the beads by pipetting carefully.
+
+  **3.9.** Incubate 5 min at room temperature.
+
+  **3.10.** Place on a magnetic stand for 5 min or until beads are stuck to the side.
+
+  **3.11.** Transfer 150 ul supernatant (containing the DNA) to a fresh tube.
+
+  **3.12.** Add AMPure XP magnetic beads in a 0.45:1 library:bead ratio to the tubes, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
+
+  **3.13.** Place on the magnetic stand for 5 min or until beads are bound to the side.
+
+  **3.14.** Remove and discard supernatant, leaving tubes on the magnetic stand.
+
+  **3.15.** Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
+
+  **3.16.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
+
+  **3.17.** Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
+
+  **3.18.** Add 52 uL H2O and resuspend the beads by pipetting carefully.
+
+  **3.19.** Incubate 5 min at room temperature.
+
+  **3.20.** Place on a magnetic stand for 5 min or until beads are stuck to the side.
+
+  **3.21.** Transfer 50 ul supernatant (containing the DNA) to a fresh tube.
 
 Bioanalyzer check:
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/Bioanalyzer_ALS_amplicons.png)
 
 
 ### 4.PacBio library preparation and SMRT cell loading
 
 Follow PacBio library recommendations and SMRT cell loading in the following protocols for amplicons of 3.5 kb size.
+
 https://www.pacb.com/wp-content/uploads/Procedure-Checklist-Preparing-SMRTbell-Libraries-using-PacBio-Barcoded-Universal-Primers-for-Multiplexing-Amplicons.pdf (Part Number 101-791-800 Version 02 (April 2020))
+
 https://www.pacb.com/wp-content/uploads/Quick-Reference-Card-Loading-and-Pre-Extension-Recommendations-for-the-Sequel-System.pdf (Part Number 101-461-600 Version 10 (October 2019))
 
 Bioanalyzer check, library end:
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/Bioanalyzer_ALS_libend.png)
 
 ## ACCase amplicons
 
@@ -188,7 +211,7 @@ With the attached 40 indexing oligos, 384 samples can be multiplexed (4 plates).
 Please use the forward and reverse index-plates as following:
 
 | Sample plate | Forward plate | Reverse column |
-|--------------|----------|-----------|
+|--------------|---------------|----------------|
 | Plate 1 | 1 | 1 |
 | Plate 2 | 1 | 2 |
 | Plate 4 | 2 | 1 |
@@ -201,7 +224,7 @@ Please use the forward and reverse index-plates as following:
 |---------|------------|
 | 100 uM Stock forward Oligo | 8.5 ul |
 | water | 841.5 ul |
-|-------|----------|
+|----------------------------|------------|
 | total | 850 ul |
 
 Pipette 100 ul per well in a PCR plate.
@@ -209,13 +232,13 @@ Pipette 100 ul per well in a PCR plate.
 ###Plate Design:
 **Forward - Plate 1**
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/ACcase_Forward1.png)
 
 
 **Forward - Plate 2**
 
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/ACCase_Forward2.png)
 
 **Reverse primer - Concentration: 5 uM**
 
@@ -223,7 +246,7 @@ Pipette 100 ul per well in a PCR plate.
 |---------|------------|
 | 100 uM Stock reverse Oligo | 5 ul |
 | water | 95 ul |
-|-------|----------|
+|----------------------------|------------|
 | total | 100 ul |
 
 Pipette 100 ul per well in a PCR plate.
@@ -232,7 +255,7 @@ Pipette 100 ul per well in a PCR plate.
 ###Plate Design:
 **Reverse**
 
-![alt text](Pictures/Digestion.png)
+![alt text](Pictures/ACCase_Reverse.png)
 
 ## Protocol
 
@@ -251,7 +274,7 @@ PrimeSTAR® GXL DNA Polymerase (Takara, R050B).
 | dNTPs | 1.6 ul |   |
 | Prime STAR polymerase | 0.4 ul |   |
 | water | 7.0 ul |   |
-|-------|--------|---|
+|-----------------------|--------|---------|
 | total | 20 ul |   |
 
 **96 - well plate assay:**
@@ -262,18 +285,19 @@ Use prepared indexing plates and add the reagents to a plate by following the or
 |---------|-------------|--------------|
 | **Step 1**: Add your **normalized DNA** (10 ng/ul) to every well. | 5 ul | |
 | **Step 2**: Add **forward primer** (1 uM) to every well, (according to the indexing plate scheme) and store plate on ice. | 5 ul | |
-| **Step 3**: Prepare a mastermix of the following 4 components in a 2 ml tube and mix it: | | |
+| **Step 3**: Prepare a **mastermix** of the following 4 components in a 2 ml tube and mix it: | | |
 | water | 3 ul | 339 ul | 
 | 5 x buffer | 4 ul | 452 ul |
 | dNTPs | 1.6 ul | 180.8 ul|
 | Prime STAR polymerase | 0.4 ul | 45.2 ul |
-| **Step 4**: Work on ice. Distribute 151.3 ul of this mastermix to every well of a clean 8-well PCR strip. Remember the orientation of the strip. | ![alt text](Pictures/Digestion.png) https://www.fishersci.de/shop/products/axygen-8-strip-pcr-tubes-10/12657215 | |
-| **Step 5**: Choose one column of the reverse indexing plate. Use a multichannel and add  13.8 ul **reverse primer** of this chosen column to the mastermix in the 8-well PCR strip, close it, mix it and centrifuge it down. | | |
-| **Step 6**: Use a multichannel pipette and distribute 12 ul of the mastermix + reverse primer from that 8-well PCR strip, column by column to your plate containing the DNA and the forward primers. Mix it, centrifuge it down and keep it on ice. Place it immediatly in the PCR machine. | | |
+| **Step 4**: Work on ice. Distribute 151.3 ul of this **mastermix** to every well of a clean 8-well PCR strip. Remember the orientation of the strip. | ![alt text](Pictures/8_strip.png) | |
+| **Step 5**: Choose one column of the reverse indexing plate. Use a multichannel and add  **13.8 ul reverse primer** of this chosen column to the mastermix in the 8-well PCR strip, close it, mix it and centrifuge it down. | | |
+| **Step 6**: Use a multichannel pipette and distribute 12 ul of the **mastermix + reverse primer** from that 8-well PCR strip, column by column to your plate containing the DNA and the forward primers. Mix it, centrifuge it down and keep it on ice. Place it immediatly in the PCR machine. | | |
 
 
 **Indexing PCR-program:**
 | Step | Temperature | Duration | Cycles |
+|------|-------------|----------|--------|
 | Denaturation | 98 °C | 10 s | 28 |
 | Annealing & Extension | 68 °C | 11 min | 28 |
 | Final Extension | 72 °C | 10 min | 1 |
@@ -283,20 +307,33 @@ Expected amount per library: 8-15 ng/ul.
 
 Gel picture, ACCase-amplicons,13.1 kb length:
 
+![alt text](Pictures/Gel_ACCase.png)
+
 ### 6.Pooling
 At this step, all indexed amplicon libraries are pooled. Therefore all libraries need to be measured either with a Qubit or a plate reader and pooled in equal amounts. It can be done manually or with an automated system like a Tecan pipetting robot.
+
 ### 7. Bead-Cleanup
-**7.1.** If necessary split amplicon pools into several 2 ml tubes. Calculate with a conservative recovery of 50% and make sure that you will have a minimum of 2ug recovery from each tube in about 30 ul elution buffer for Blue Pippin size selection.
-**7.2.**Add AMPure XP magnetic beads in a 0.45:1 library:bead ratio to the tubes, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
-**7.3.**Place on the magnetic stand for 5 min or until beads are bound to the side.
-**7.4.**Remove and discard supernatant, leaving tubes on the magnetic stand.
-**7.5.**Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
-**7.6.**Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
-**7.7.**Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
-**7.8.**Add 35 uL H2O and resuspend the beads by pipetting carefully.
-**7.9.**Incubate 5 min at room temperature.
-**7.10.**Place on a magnetic stand for 5 min or until beads are stuck to the side.
-**7.11.**Transfer 32 ul supernatant (containing the DNA) to a fresh tube.
+  **7.1.** If necessary split amplicon pools into several 2 ml tubes. Calculate with a conservative recovery of 50% and make sure that you will have a minimum of 2ug recovery from each tube in about 30 ul elution buffer for Blue Pippin size selection.
+
+  **7.2.**Add AMPure XP magnetic beads in a 0.45:1 library:bead ratio to the tubes, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
+
+  **7.3.**Place on the magnetic stand for 5 min or until beads are bound to the side.
+
+  **7.4.**Remove and discard supernatant, leaving tubes on the magnetic stand.
+
+  **7.5.**Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
+
+  **7.6.**Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
+
+  **7.7.**Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
+
+  **7.8.**Add 35 uL H2O and resuspend the beads by pipetting carefully.
+
+  **7.9.**Incubate 5 min at room temperature.
+
+  **7.10.**Place on a magnetic stand for 5 min or until beads are stuck to the side.
+
+  **7.11.**Transfer 32 ul supernatant (containing the DNA) to a fresh tube.
 
 
 ### 8. Blue Pippin size selection with a 0.75% gel, 15kb - 50 kb and S1 external standards
@@ -312,32 +349,45 @@ For our experiment, we loaded ~ 2ug DNA per well, in total 6 ug (don’t underlo
 Femto Pulse check before and after Blue Pippin:
 Before Blue Pippin:
 
-
+![alt text](Pictures/Femto_before_ACCase.png)
 LM = Lower marker
 
 After Blue Pippin:
+![alt text](Pictures/Femto_after_ACCase.png)
+LM = Lower marker
 
 ### 9. Bead-Cleanup
-**9.1.** Pool all recovered amplicon libraries in a 2 ml tube. Add AMPure XP magnetic beads in a 1:1 library:bead ratio to the tube, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
-**9.2.** Place on the magnetic stand for 5 min or until beads are bound to the side.
-**9.3.** Remove and discard supernatant, leaving tubes on the magnetic stand.
-**9.4.** Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
-**9.5.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
-**9.6.** Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
-**9.7.** Add 50 uL H2O and resuspend the beads by pipetting carefully.
-**9.8.** Incubate 5 min at room temperature.
-**9.9.** Place on a magnetic stand for 5 min or until beads are stuck to the side.
-**9.10.** Transfer 48 ul supernatant (containing the DNA) to a fresh tube.
+  **9.1.** Pool all recovered amplicon libraries in a 2 ml tube. Add AMPure XP magnetic beads in a 1:1 library:bead ratio to the tube, mix it well by pipetting up and down with wide-orifice tips and give it 5 min incubation at RT to bind to the beads.
+
+  **9.2.** Place on the magnetic stand for 5 min or until beads are bound to the side.
+
+  **9.3.** Remove and discard supernatant, leaving tubes on the magnetic stand.
+
+  **9.4.** Add 2 ml fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
+
+  **9.5.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
+
+  **9.6.** Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
+
+  **9.7.** Add 50 uL H2O and resuspend the beads by pipetting carefully.
+
+  **9.8.** Incubate 5 min at room temperature.
+
+  **9.9.** Place on a magnetic stand for 5 min or until beads are stuck to the side.
+
+  **9.10.** Transfer 48 ul supernatant (containing the DNA) to a fresh tube.
 
 ### 10. PacBio library preparation and SMRT cell loading
 
 Follow PacBio library recommendations and SMRT cell loading in the following protocol for amplicons of 12 kb size.
+
 https://www.pacb.com/wp-content/uploads/Procedure-Checklist-Preparing-SMRTbell-Libraries-using-PacBio-Barcoded-Universal-Primers-for-Multiplexing-Amplicons.pdf (Part Number 101-791-800 Version 02 (April 2020))
+
 https://www.pacb.com/wp-content/uploads/Quick-Reference-Card-Loading-and-Pre-Extension-Recommendations-for-the-Sequel-System.pdf (Part Number 101-461-600 Version 10 (October 2019))
 
 ## Appendix
 
-###Oligos
+### Oligos
 
 ALS Indexing oligos (Purification: Cartridge, biomers):
 
