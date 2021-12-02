@@ -4,7 +4,7 @@ This protocol generates ALS/ACCase-amplicon libraries from **30/50 ng input DNA 
 
 ## Workflow
 
-![alt text]("Pictures/Workflow.png")
+![alt text](Pictures/Workflow.png)
 
 ## Materials & Machines
 
@@ -232,7 +232,7 @@ Pipette 100 ul per well in a PCR plate.
 ### Plate Design:
 **Forward - Plate 1**
 
-![alt text](Pictures/ACcase_Forward1.png)
+![alt text](Pictures/ACCase_Forward1.png)
 
 
 **Forward - Plate 2**
