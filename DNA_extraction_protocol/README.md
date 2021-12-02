@@ -63,33 +63,33 @@ Dependent on the amount of samples:
 
 ### 2. First bead-cleanup
 
-  **2.1.**Add 300 uL of magnetic beads, mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
+  **2.1.** Add 300 uL of magnetic beads, mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   
-  **2.2.**Place on the magnetic stand for 5 min or until beads are bound to the side.
+  **2.2.** Place on the magnetic stand for 5 min or until beads are bound to the side.
   
-  **2.3.**Remove and discard supernatant, leaving tubes on the magnetic stand.
+  **2.3.** Remove and discard supernatant, leaving tubes on the magnetic stand.
   
-  **2.4.**Add 500 uL fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
+  **2.4.** Add 500 uL fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
   
-  **2.5.**Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
+  **2.5.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
   
-  **2.6.**Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
+  **2.6.** Let the beads dry for 2 min. **Note: Don’t overdry the beads as this can lead to substantial DNA losses.**
   
-  **2.7.**Add 52 uL H2O and resuspend the beads by pipetting or with a plate shaker.
+  **2.7.** Add 52 uL H2O and resuspend the beads by pipetting or with a plate shaker.
   
-  **2.8.**Incubate 5 min at room temperature.
+  **2.8.** Incubate 5 min at room temperature.
   
-  **2.9.**Place on a magnetic stand for 5 min or until beads are stuck to the side.
+  **2.9.** Place on a magnetic stand for 5 min or until beads are stuck to the side.
   
-  **2.10**Transfer 50 ul supernatant (containing the DNA) to a PCR plate.
+  **2.10** Transfer 50 ul supernatant (containing the DNA) to a PCR plate.
 
 ### 3. Second bead-cleanup
 
 **Note: The second bead-cleanup is not necessary for all plant species. With only one cleanup for ALOMY not all following PCR reactions worked. Probably due to secondary inhibiting phytochemicals.  With the additional cleanup, all PCR reactions worked.**
 
-  **3.1.**Add 50 ul of magnetic beads to each well, mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
+  **3.1.** Add 50 ul of magnetic beads to each well, mix it well by pipetting up and down and give it 5 min incubation at RT to bind to the beads.
   
-  **3.2.**Repeat steps 2.2 until 2.10. For the 80% EtOH washes, 200 ul are sufficient this time.
+  **3.2.** Repeat steps 2.2 until 2.10. For the 80% EtOH washes, 200 ul are sufficient this time.
 
 ### 4. References
 
