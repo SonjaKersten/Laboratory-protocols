@@ -127,7 +127,7 @@ Use prepared indexing plates and add the reagents to a plate by following the or
 **Indexing PCR-program:**
 
 | Step | Temperature | Duration | Cycles |
-|------|–------------|––––––––––|--------|
+|------|–------------|----------|--------|
 | Denaturation | 98 °C | 10 s | 28 |
 | Annealing & Extension | 68 °C | 3:30 min | 28 |
 | Final Extension | 72 °C | 10 min | 1 |
@@ -306,7 +306,7 @@ Use prepared indexing plates and add the reagents to a plate by following the or
 
 Expected amount per library: 8-15 ng/ul.
 
-Gel picture, ACCase-amplicons,13.1 kb length:
+Gel picture, ACCase-amplicons,13.2 kb length:
 
 ![alt text](Pictures/Gel_ACCase.png)
 
