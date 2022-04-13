@@ -1,4 +1,5 @@
 # ddRAD-library protocol
+published in: Lang, PLM, Weiß, CL, Kersten, S, et al. **Hybridization ddRAD-sequencing for population genomics of nonmodel plants using highly degraded historical specimen DNA.** Mol Ecol Resour. 2020; 20: 1228– 1247. https://doi.org/10.1111/1755-0998.13168
 
 This protocol generates double-digest RAD libraries from **200 ng input DNA (10 ng/ul in 20 ul)** and can multiplex up to 576 samples (6 plates). It is recommended to perform an *in-silico* digest on your reference to determine the right combination of enzymes (e.g. with RestrictionDigest [Wang et al. 2016](https://www.sciencedirect.com/science/article/pii/S071734581630001X)).
 

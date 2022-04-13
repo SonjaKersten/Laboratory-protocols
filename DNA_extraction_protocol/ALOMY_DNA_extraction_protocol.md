@@ -1,4 +1,5 @@
 # ALOMY DNA extraction protocol
+adapted from Rohland, N., & Reich, D. (2012)
 
 ## Materials & Machines
 
