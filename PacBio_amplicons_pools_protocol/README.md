@@ -12,12 +12,12 @@ This protocol generates ACCase-amplicon pool libraries with a direct barcoding a
 
 * Ethanol
 * Elution buffer (EB)
-* Beckman Coulter™ Agencourt AMPure XP (Fisher Scientific, Beckman Coulter™, A63881)
-* PrimeSTAR® GXL DNA Polymerase (Takara, R050B)
-* Qubit™ dsDNA HS Assay Kit (Thermo Scientific, Q32851)
-* BluePippin cassettes for ACCase size selection: High-Pass Plus 0.75% Agarose for 15kb HP, includes reagents, 3 Cassettes (Biozym, 342BPLUS03)
-* Wide orifice tips, 200 ul and 1000 ul (Thermo Scientific, 2069GPK and 2079GPK)
-* Femto Pulse Genomic DNA 165 kb Kit (Agilent, FP-1002-0275)
+* Beckman Coulter™ Agencourt AMPure XP (Fisher Scientific, Beckman Coulter™, **A63881**)
+* PrimeSTAR® GXL DNA Polymerase (Takara, **R050B**)
+* Qubit™ dsDNA HS Assay Kit (Thermo Scientific, **Q32851**)
+* BluePippin cassettes for ACCase size selection: High-Pass Plus 0.75% Agarose for 15kb HP, includes reagents, 3 Cassettes (Biozym, **342BPLUS03**)
+* Wide orifice tips, 200 ul and 1000 ul (Thermo Scientific, **2069GPK** and **2079GPK**)
+* Femto Pulse Genomic DNA 165 kb Kit (Agilent, **FP-1002-0275**)
 * 8-strip PCR tubes, 2ml Eppendorf tubes and 96-well PCR plates
 * Index-oligos (See appendix, oligos)
 
@@ -59,7 +59,7 @@ Pipette 100 ul per well in a PCR plate.
 ### Plate Design:
 **Forward - Plate 1**
 
-![alt text](Pictures/ACcase_Forward1.png)
+![alt text](Pictures/ACCase_Forward1.png)
 
 
 **Forward - Plate 2**
@@ -90,7 +90,7 @@ To generate a sufficient amount of ACCase amplicon libraries for our 64 pooled f
 
 **Single sample assay:**
 Prepared primers are in single tubes at 5 uM concentration.
-PrimeSTAR® GXL DNA Polymerase (Takara, R050B).
+PrimeSTAR® GXL DNA Polymerase (Takara, **R050B**).
 
 
 | Reagent | 1x | Mastermix |
