@@ -1,5 +1,5 @@
 # ALOMY DNA extraction protocol
-adapted from Rohland, N., & Reich, D. (2012)
+
 
 ## Materials & Machines
 
@@ -27,7 +27,7 @@ adapted from Rohland, N., & Reich, D. (2012)
 * Ceramic beads
 * Magnetic beads (Agencourt AMPure XP, A63881 or stock beads for homemade beads after (Rohland & Reich, 2012) : Sera-Mag SpeedBeads™, GE Healthcare, 65152105050450)
 * Screw cap micro tubes (Sarstedt, 72.694.005)
-* QIAgen collection microtube plates (Qiagen, 19560)
+* QIAgen collection microtube plates (Qiagen, 19560) or 2 ml Eppendorf tubes
 * Axygen PCR plate (Axygen, PCR-96M2-HS-C)
 
 **Machines:**
@@ -42,25 +42,31 @@ Dependent on the amount of samples:
 
 ## Extraction protocol
 
+The following extraction protocol can be used for plates or tubes. The first step for tissue grinding is always performed in 2 ml screw cap micro tubes. From then on the standard protocol assumes plates. Alternative parameters for extraction in tubes are indicated as **'**.
+
 ### 1. Lysis and precipitation
 
-  **1.1.** Collect ca. 1 g of plant material. Grind the frozen (liquid N) tissue in the screw cap micro tubes (filled with 4-5 ceramic beads) with the Fast Prep machine at speed 4 for 15 sec. Freeze again in liquid N and repeat grinding.
+  **1.1.** Collect ca. 100 mg of plant material. Grind the frozen (liquid N) tissue in the screw cap micro tubes (filled with 4-5 ceramic beads) with the Fast Prep machine at speed 4 for 15 sec. Freeze again in liquid N and repeat grinding.
   
   **1.2.** Quickly add 800 uL of extraction buffer to the screw cap micro tubes and vortex until homogenized.
   
   **1.3.** Incubation for 1 hour at 60 °C.
   
-  **1.4.** Spin at 12 000 g for 1 min.
+  **1.4.** [Plate] Spin at max speed ~6,000 g for plates for 10 min.
+  **1.4.'** [Tube] Spin at 12 000 g for 1 min.
   
-  **1.5.** Transfer 200 ul supernatant to a QIAgen collection microtube plate and add 0.325 volumes of 5M Potassium Acetate (65ul for 200ul lysate). **Note: The remaining lysate (ca. 400 ul) can be frozen again in -80 °C (as backup) and if needed used later from this step on.**
+  **1.5.** [Plate] Transfer 200 ul supernatant to a QIAgen collection microtube plate and add 0.325 volumes of 5M Potassium Acetate (65ul for 200ul lysate). **Note: The remaining lysate (ca. 400 ul) can be frozen again in -80 °C (as backup) and if needed used later from this step on.**
+  **1.5.'** [Tube] Transfer 200 ul supernatant to a 2 ml Eppendorf tube and add 0.325 volumes of 5M Potassium Acetate (65ul for 200ul lysate).
   
-  **1.6.** Close the plate, mix it very well and give it a short spin.
+  **1.6.** Close the plate/ tube, mix it very well and give it a short spin.
   
-  **1.7.** Incubate the plate in -20 C for 10 - 15 min.
+  **1.7.** Incubate the plate/ tube in -20 C for 10 - 15 min.
   
-  **1.8.** Spin at max speed (~6,000 g for plates) for 10 min or 12 000 g for 1 min for Eppendorf tubes.
+  **1.8.** [Plate] Spin at max speed ~6,000 g for plates for 10 min.
+  **1.8.'** [Tube] Spin at 12 000 g for 1 min.
   
-  **1.9.** Transfer 200 uL of supernatant to a fresh QIAgen collection microtube plate. **Note: Remove the bottom lid of the plate to fit it on a magnet.**
+  **1.9.** [Plate] Transfer 200 uL of supernatant to a fresh QIAgen collection microtube plate. **Note: Remove the bottom lid of the plate to fit it on a magnet.**
+  **1.9.'** [Tube] Transfer 200 uL of supernatant to a fresh 2 ml tube.
 
 ### 2. First bead-cleanup
 
@@ -68,9 +74,9 @@ Dependent on the amount of samples:
   
   **2.2.** Place on the magnetic stand for 5 min or until beads are bound to the side.
   
-  **2.3.** Remove and discard supernatant, leaving tubes on the magnetic stand.
+  **2.3.** Remove and discard supernatant, leaving plate/ tube on the magnetic stand.
   
-  **2.4.** Add 500 uL fresh 80% EtOH to wash the beads, while keeping the plate on the magnet, wait 30 s and remove and discard EtOH.
+  **2.4.** Add 500 uL fresh 80% EtOH to wash the beads, while keeping the plate/ tube on the magnet, wait 30 s and remove and discard EtOH.
   
   **2.5.** Repeat the 80% EtOH wash and carefully remove all remaining EtOH. **Note: Sometimes it is good to flash spin and put the tubes back on the magnet and remove the last ul of EtOH with a pipet.**
   
