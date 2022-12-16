@@ -53,9 +53,11 @@ The following extraction protocol can be used for plates or tubes. The first ste
   **1.3.** Incubation for 1 hour at 60 °C.
   
   **1.4.** [Plate] Spin at max speed ~6,000 g for plates for 10 min.
+  
   **1.4.'** [Tube] Spin at 12 000 g for 1 min.
   
   **1.5.** [Plate] Transfer 200 ul supernatant to a QIAgen collection microtube plate and add 0.325 volumes of 5M Potassium Acetate (65ul for 200ul lysate). **Note: The remaining lysate (ca. 400 ul) can be frozen again in -80 °C (as backup) and if needed used later from this step on.**
+  
   **1.5.'** [Tube] Transfer 200 ul supernatant to a 2 ml Eppendorf tube and add 0.325 volumes of 5M Potassium Acetate (65ul for 200ul lysate).
   
   **1.6.** Close the plate/ tube, mix it very well and give it a short spin.
@@ -63,9 +65,11 @@ The following extraction protocol can be used for plates or tubes. The first ste
   **1.7.** Incubate the plate/ tube in -20 C for 10 - 15 min.
   
   **1.8.** [Plate] Spin at max speed ~6,000 g for plates for 10 min.
+  
   **1.8.'** [Tube] Spin at 12 000 g for 1 min.
   
   **1.9.** [Plate] Transfer 200 uL of supernatant to a fresh QIAgen collection microtube plate. **Note: Remove the bottom lid of the plate to fit it on a magnet.**
+  
   **1.9.'** [Tube] Transfer 200 uL of supernatant to a fresh 2 ml tube.
 
 ### 2. First bead-cleanup
