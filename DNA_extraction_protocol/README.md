@@ -46,7 +46,7 @@ The following extraction protocol can be used for plates or tubes. The first ste
 
 ### 1. Lysis and precipitation
 
-  **1.1.** Collect ca. 100 mg of plant material. Grind the frozen (liquid N) tissue in the screw cap micro tubes (filled with 4-5 ceramic beads) with the Fast Prep machine at speed 4 for 15 sec. Freeze again in liquid N and repeat grinding.
+  **1.1.** Collect ca. 300 mg of plant material. Grind the frozen (liquid N) tissue in the screw cap micro tubes (filled with 4-5 ceramic beads) with the Fast Prep machine at speed 4 for 15 sec. Freeze again in liquid N and repeat grinding.
   
   **1.2.** Quickly add 800 uL of extraction buffer to the screw cap micro tubes and vortex until homogenized.
   
